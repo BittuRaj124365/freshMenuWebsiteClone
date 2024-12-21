@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food order.Get fresh food here</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <header>
+        <div>
+            <div class="freshMenu ">
+                <img src="Assets/logo.svg" alt="logo">
+                <h3 id="logoName">FreshMenu</h3>
+                <div class="address">
+                    <p class="addOpt">Deliver to:</p>
+                    <p class="addDetail">Delhi, Ber Sarai..</p>
+                    <select class="addLocation">
+                        <option>change</option>
+                        <option>Patna</option>
+                        <option>Delhi</option>
+                        <option>Bihar</option>
+                        <option>Bihta</option>
+                    </select>
+                </div>
+                <div class="downloadOption">
+                    <a href="#" style="color:black">Download App</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="secDiv transitionNav">
+            <div class="searchNav">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#">Search</a>
+                <i class="fa-solid fa-offer"></i>
+                <a href="#">Offers</a>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <a href="#">Help</a>
+                <!-- <i class="fa-solid fa-user" ></i> -->
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+        <hr>
+        <div class="heroContent">
+            <div class="heroImage"></div>
+        </div>
+        <hr>
+    </header>
+    <div class="categoryDiv">
+        <p id="categoryOption">CATEGORIES</p>
+        <a href="#" class="option1">Veg</a>
+        <a href="#" class="option2" style="color:black">Price<i class="fa-solid fa-bars"></i></a>
+        <a href="#" class="option3" style="color:green"><i class="fa-solid fa-filter" style="color:black"></i>Filter</a>
+    </div>
+    <hr>
+    <div class="menuContainer">
+        <div class="categories">
+            <ul>
+                <li><a href="#">All day breakfast</a></li>
+                <li><a href="#">Wraps</a></li>
+                <li><a href="#">Sandwiches</a></li>
+                <li><a href="#">Bowls</a></li>
+                <li><a href="#">Noodles</a></li>
+                <li><a href="#">SuperBowl</a></li>
+                <li><a href="#">Keto and Salad</a></li>
+                <li><a href="#">Burger</a></li>
+                <li><a href="#">Appetizer</a></li>
+                <li><a href="#">Zero Rice Bowl</a></li>
+                <li><a href="#">Dessert and Beverage</a></li>
+                <li><a href="#">Gourmet Sandwiches</a></li>
+                <li><a href="#">Meal Combo</a></li>
+                <li><a href="#">Mini Bowls</a></li>
+            </ul>
+        </div>
+        <!-- menuList images -->
+        <div class="menuList">
+            <div class="box1 box">
+                <div class="menuImage" style="background-image:url(Assets/menu1.jpg);">
+                </div>
+                <p>Dal Rice</p>
+                <h4 style="display:inline">₹259</h4>
+                <h5 style="text-decoration:line-through">₹339</h5>
+                <h6 style="display:inline">24%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box12 box">
+                <div class="menuImage" style="background-image:url(Assets/menu12.jpg);">
+                </div>
+                <p>Chawmin Tikka</p>
+                <h4 style="display:inline">₹259</h4>
+                <h5 style="text-decoration:line-through">₹339</h5>
+                <h6 style="display:inline">24%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box2 box">
+                <div class="menuImage" style="background-image:url(Assets/menu2.jpeg);">
+                </div>
+                <p>Salad Rice</p>
+                <h4 style="display:inline">₹199</h4>
+                <h5 style="text-decoration:line-through">₹249</h5>
+                <h6 style="display:inline">3%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box3 box">
+                <div class="menuImage" style="background-image:url(Assets/menu3.jpeg);">
+                </div>
+                <p>Egg Chapati</p>
+                <h4 style="display:inline">₹399</h4>
+                <h5 style="text-decoration:line-through">₹499</h5>
+                <h6 style="display:inline">14%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box4 box">
+                <div class="menuImage" style="background-image:url(Assets/menu4.jpeg);">
+                </div>
+                <p>Rajma Rice</p>
+                <h4 style="display:inline">₹259</h4>
+                <h5 style="text-decoration:line-through">₹349</h5>
+                <h6 style="display:inline">17%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box5 box">
+                <div class="menuImage" style="background-image:url(Assets/menu5.jpg);">
+                </div>
+                <p>Chicken Curry</p>
+                <h4 style="display:inline">₹499</h4>
+                <h5 style="text-decoration:line-through">₹749</h5>
+                <h6 style="display:inline">9%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box6 box">
+                <div class="menuImage" style="background-image:url(Assets/menu6.jpg);">
+                </div>
+                <p>Egg Rice</p>
+                <h4 style="display:inline">₹229</h4>
+                <h5 style="text-decoration:line-through">₹369</h5>
+                <h6 style="display:inline">8%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box7 box">
+                <div class="menuImage" style="background-image:url(Assets/menu7.jpg);">
+                </div>
+                <p>Paneer Chawmin</p>
+                <h4 style="display:inline">₹179</h4>
+                <h5 style="text-decoration:line-through">₹259</h5>
+                <h6 style="display:inline">7%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box8 box">
+                <div class="menuImage" style="background-image:url(Assets/menu8.jpg);">
+                </div>
+                <p>Chicken Rice</p>
+                <h4 style="display:inline">₹699</h4>
+                <h5 style="text-decoration:line-through">₹799</h5>
+                <h6 style="display:inline">8%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box9 box">
+                <div class="menuImage" style="background-image:url(Assets/menu9.jpg);">
+                </div>
+                <p>Mushroom Rice</p>
+                <h4 style="display:inline">₹259</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">34%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box10 box">
+                <div class="menuImage" style="background-image:url(Assets/menu10.jpg);">
+                </div>
+                <p>Paneer Rice</p>
+                <h4 style="display:inline">₹2599</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">16%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box11 box">
+                <div class="menuImage" style="background-image:url(Assets/menu11.jpg);">
+                </div>
+                <p>Pasta</p>
+                <h4 style="display:inline">₹99</h4>
+                <h5 style="text-decoration:line-through">₹129</h5>
+                <h6 style="display:inline">12%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box12 box">
+                <div class="menuImage" style="background-image:url(Assets/menu12.jpg);">
+                </div>
+                <p>Chawmin Tikka</p>
+                <h4 style="display:inline">₹159</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">14%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box11 box">
+                <div class="menuImage" style="background-image:url(Assets/menu11.jpg);">
+                </div>
+                <p>Pasta</p>
+                <h4 style="display:inline">₹99</h4>
+                <h5 style="text-decoration:line-through">₹129</h5>
+                <h6 style="display:inline">12%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box9 box">
+                <div class="menuImage" style="background-image:url(Assets/menu9.jpg);">
+                </div>
+                <p>Mushroom Rice</p>
+                <h4 style="display:inline">₹259</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">34%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box10 box">
+                <div class="menuImage" style="background-image:url(Assets/menu10.jpg);">
+                </div>
+                <p>Paneer Rice</p>
+                <h4 style="display:inline">₹2599</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">16%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box11 box">
+                <div class="menuImage" style="background-image:url(Assets/menu11.jpg);">
+                </div>
+                <p>Pasta</p>
+                <h4 style="display:inline">₹99</h4>
+                <h5 style="text-decoration:line-through">₹129</h5>
+                <h6 style="display:inline">12%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box12 box">
+                <div class="menuImage" style="background-image:url(Assets/menu12.jpg);">
+                </div>
+                <p>Chawmin Tikka</p>
+                <h4 style="display:inline">₹159</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">14%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box11 box">
+                <div class="menuImage" style="background-image:url(Assets/menu11.jpg);">
+                </div>
+                <p>Pasta</p>
+                <h4 style="display:inline">₹99</h4>
+                <h5 style="text-decoration:line-through">₹129</h5>
+                <h6 style="display:inline">12%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box9 box">
+                <div class="menuImage" style="background-image:url(Assets/menu9.jpg);">
+                </div>
+                <p>Mushroom Rice</p>
+                <h4 style="display:inline">₹259</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">34%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box10 box">
+                <div class="menuImage" style="background-image:url(Assets/menu10.jpg);">
+                </div>
+                <p>Paneer Rice</p>
+                <h4 style="display:inline">₹2599</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">16%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box11 box">
+                <div class="menuImage" style="background-image:url(Assets/menu11.jpg);">
+                </div>
+                <p>Pasta</p>
+                <h4 style="display:inline">₹99</h4>
+                <h5 style="text-decoration:line-through">₹129</h5>
+                <h6 style="display:inline">12%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box12 box">
+                <div class="menuImage" style="background-image:url(Assets/menu12.jpg);">
+                </div>
+                <p>Chawmin Tikka</p>
+                <h4 style="display:inline">₹159</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">14%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box11 box">
+                <div class="menuImage" style="background-image:url(Assets/menu11.jpg);">
+                </div>
+                <p>Pasta</p>
+                <h4 style="display:inline">₹99</h4>
+                <h5 style="text-decoration:line-through">₹129</h5>
+                <h6 style="display:inline">12%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box9 box">
+                <div class="menuImage" style="background-image:url(Assets/menu9.jpg);">
+                </div>
+                <p>Mushroom Rice</p>
+                <h4 style="display:inline">₹259</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">34%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box10 box">
+                <div class="menuImage" style="background-image:url(Assets/menu10.jpg);">
+                </div>
+                <p>Paneer Rice</p>
+                <h4 style="display:inline">₹2599</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">16%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box11 box">
+                <div class="menuImage" style="background-image:url(Assets/menu11.jpg);">
+                </div>
+                <p>Pasta</p>
+                <h4 style="display:inline">₹99</h4>
+                <h5 style="text-decoration:line-through">₹129</h5>
+                <h6 style="display:inline">12%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box12 box">
+                <div class="menuImage" style="background-image:url(Assets/menu12.jpg);">
+                </div>
+                <p>Chawmin Tikka</p>
+                <h4 style="display:inline">₹159</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">14%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box11 box">
+                <div class="menuImage" style="background-image:url(Assets/menu11.jpg);">
+                </div>
+                <p>Pasta</p>
+                <h4 style="display:inline">₹99</h4>
+                <h5 style="text-decoration:line-through">₹129</h5>
+                <h6 style="display:inline">12%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box9 box">
+                <div class="menuImage" style="background-image:url(Assets/menu9.jpg);">
+                </div>
+                <p>Mushroom Rice</p>
+                <h4 style="display:inline">₹259</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">34%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box10 box">
+                <div class="menuImage" style="background-image:url(Assets/menu10.jpg);">
+                </div>
+                <p>Paneer Rice</p>
+                <h4 style="display:inline">₹2599</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">16%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box11 box">
+                <div class="menuImage" style="background-image:url(Assets/menu11.jpg);">
+                </div>
+                <p>Pasta</p>
+                <h4 style="display:inline">₹99</h4>
+                <h5 style="text-decoration:line-through">₹129</h5>
+                <h6 style="display:inline">12%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box12 box">
+                <div class="menuImage" style="background-image:url(Assets/menu12.jpg);">
+                </div>
+                <p>Chawmin Tikka</p>
+                <h4 style="display:inline">₹159</h4>
+                <h5 style="text-decoration:line-through">₹299</h5>
+                <h6 style="display:inline">14%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+
+            <div class="box11 box">
+                <div class="menuImage" style="background-image:url(Assets/menu11.jpg);">
+                </div>
+                <p>Pasta</p>
+                <h4 style="display:inline">₹99</h4>
+                <h5 style="text-decoration:line-through">₹129</h5>
+                <h6 style="display:inline">12%off</h6>
+                <span><a href="#" style="text-decoration:none">Add</a></span>
+            </div>
+        </div>
+        <!-- <hr>      -->
+        <footer class="footer">
+            <div class="bottomPart">
+                <div class="companyDiv footer">
+                    <ul>
+                        COMPANY
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="contactDiv footer">
+                    <ul>
+                        HELP & CONTACT
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">703-362-535-8</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="orderDiv footer">
+                    <ul>
+                        MORE FROM US
+                        <li><a href="#">Buld/Party orders</a></li>
+                        <li><a href="#">Cake Orders</a></li>
+                        <li><a href="#">FreshClub</a></li>
+                        <li><a href="#">Others</a></li>
+                    </ul>
+                </div>
+                <div class="subscribeOption">
+                    <p id="subGreet">SUBSCRIBE TO OUT DROORWORTHY NEWSLETTER</p>
+                    <input type="text" placeholder="Enter Your Email">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+            <p id="termsCondition"><a href="#">Terms and Privacy</a></p>
+            <hr>
+            <div class="lastFooter">
+                <div class="lastOption footer">
+                    <ul>
+                        <p id="catOpt" style="color:black">CATEGORIES</p>
+                        <li><a href="#">Mains</a></li>
+                        <li><a href="#">Pizzas</a></li>
+                        <li><a href="#">Salad</a></li>
+                        <li><a href="#">Desserts</a></li>
+                        <li><a href="#">Quick Bites</a></li>
+                    </ul>
+                </div>
+                <div class="lastOption footer">
+                    <ul>
+                        <p id="cuision" style="margin:12px">CUISINES</p>
+                        <li><a href="#">Indian</a></li>
+                        <li><a href="#">Chines</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">American</a></li>
+                        <li><a href="#">Mexican</a></li>
+                        <li><a href="#">Thai</a></li>
+                        <li><a href="#">Cotinental</a></li>
+                        <li><a href="#">Mediterranean</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <p class="copyright">
+                <i class='bx bx-copyright'></i>© 2024 Bittu Raj. All rights reserved.
+            </p>
+        </footer>
+</body>
+
+</html>
